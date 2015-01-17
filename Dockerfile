@@ -7,4 +7,5 @@ RUN apt-get update && apt-get install -y ruby-full rubygems git-core && rm -rf /
 RUN gem install rhc
 
 USER jenkins
+ENV HOME $JENKINS_HOME
 
