@@ -3,4 +3,6 @@ clone-workspace-scm:0.6
 parameterized-trigger:2.25
 sonar:2.1
 mask-passwords:2.7.2
+token-macro:1.10
+git:2.3.4
 github:1.10
