@@ -1,6 +1,6 @@
 FROM jenkins
 MAINTAINER Michal Bocek <michal.bocek@gmail.com>
 
-RUN apt-get update && apt-get install -y ruby-full rubygems git-core && rm -rf /var/lib/apt/lists/*
-RUN gem install rhc
+RUN sudo apt-get update && sudo apt-get install -y ruby-full rubygems git-core && sudo rm -rf /var/lib/apt/lists/*
+RUN sudo gem install rhc
 
