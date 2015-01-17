@@ -3,4 +3,4 @@ clone-workspace-scm:0.6
 parameterized-trigger:2.25
 sonar:2.1
 mask-passwords:2.7.2
-git-client:1.15.0
+github:1.10
