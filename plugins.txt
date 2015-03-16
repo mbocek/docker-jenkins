@@ -7,3 +7,6 @@ token-macro:1.10
 multiple-scms:0.3
 git:2.3.4
 github:1.10
+mapdb-api:1.0.1.0
+jquery:1.7.2-1
+git-client:1.15.0
