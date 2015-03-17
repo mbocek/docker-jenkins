@@ -10,4 +10,5 @@ github:1.10
 mapdb-api:1.0.1.0
 jquery:1.7.2-1
 git-client:1.15.0
-github-api:1.42
+github-api:1.63
+thinBackup:1.7.4
