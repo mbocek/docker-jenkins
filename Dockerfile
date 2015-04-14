@@ -17,7 +17,7 @@ RUN /usr/local/bin/plugins.sh /tmp/plugins.txt
 USER root
 # create sonar runner
 RUN curl -L http://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.zip -o /opt/sonar-runner-dist-2.4.zip
-RUN unzip /opt/sonar-runner-dist-2.4.zip
+RUN unzip /opt/sonar-runner-dist-2.4.zip -d /opt
 
 # clean up
 RUN rm /tmp/plugins.txt
